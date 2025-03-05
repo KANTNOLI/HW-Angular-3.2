@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Carts } from '../carts/carts.component';
 
 @Component({
   selector: 'app-filters',
@@ -9,3 +10,6 @@ import { Component } from '@angular/core';
 export class FiltersComponent {
 
 }
+
+
+console.log(Carts);
