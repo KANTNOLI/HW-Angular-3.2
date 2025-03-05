@@ -3,10 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FiltersComponent } from './filters/filters.component';
+import { CartsComponent } from './carts/carts.component';
+import { RenderCartPipe } from './pipes/render-cart.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FiltersComponent,
+    CartsComponent,
+    RenderCartPipe
   ],
   imports: [
     BrowserModule,
